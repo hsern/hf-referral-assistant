@@ -1,0 +1,29 @@
+# Data files (don't commit patient data)
+data/referrals/*.xlsx
+data/referrals/*.xls
+data/referrals.db
+
+# Guidelines (large PDFs)
+data/guidelines/*.pdf
+data/guidelines_index/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
